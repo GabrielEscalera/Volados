@@ -3,7 +3,7 @@ import numpy as np
 import pandas as pd
 
 #Menu de opciones
-st.image("imagenes\\banner.png", use_container_width=True)
+st.image("banner.png", use_container_width=True)
 st.write("Bienvenido a la calculadora para resolver problemas de volados, para continuar seleccione una de las siguientes calculadoras:")
 selected = st.radio("Seleccione una calculadora:", 
             ["Calculadora para volados con números aleatorios generados", 
